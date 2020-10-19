@@ -1,0 +1,24 @@
+{
+  "name": "bms-mail",
+  "version": "1.0.0",
+  "description": "send mail request xml data",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AbacuZ/bms-email.git"
+  },
+  "keywords": [
+	"npm",
+    "email"
+  ],
+  "author": "kitsadanapaporn@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "bms-response": "^1.0.10",
+    "xml2js": "^0.4.23"
+  }
+}
